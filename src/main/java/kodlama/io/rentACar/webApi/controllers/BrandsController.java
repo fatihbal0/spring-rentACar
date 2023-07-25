@@ -21,7 +21,7 @@ import kodlama.io.rentACar.business.responses.GetAllBrandsResponse;
 import kodlama.io.rentACar.business.responses.GetByIdBrandResponse;
 import lombok.AllArgsConstructor;
 
-@RestController // bilgilendirme
+@RestController
 @RequestMapping("/api/brands")
 @AllArgsConstructor
 public class BrandsController {

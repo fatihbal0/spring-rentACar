@@ -16,7 +16,7 @@ import kodlama.io.rentACar.dataAccess.abstracts.BrandRepository;
 import kodlama.io.rentACar.entities.concretes.Brand;
 import lombok.AllArgsConstructor;
 
-@Service // bu sinif bir business nesnesidir
+@Service
 @AllArgsConstructor
 public class BrandManager implements BrandService {
 	private BrandRepository brandRepository;
